@@ -1,0 +1,89 @@
+/**********************************
+		header 
+**********************************/
+header {
+	background: url('../img/main-background-image.jpg') no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	padding: 140px 0;
+	position: relative;
+	z-index: 2
+}
+header:after {
+	background: rgba(23, 27, 39, 0.65) !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: '';
+	z-index: -1;
+}
+header h1 {
+	font-size: 40px;
+	text-transform: capitalize;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 30px;
+}
+header a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 21px;
+	border: 2px solid #fff;
+	padding: 15px 25px;
+	display: inline-block;
+}
+header a:hover {
+	color: #fff;
+}
+
+/***********************************
+		items
+***********************************/
+.items {
+    padding: 120px 0;
+    text-align: center;
+}
+.items .single-item {
+	margin-top: 50px;
+}
+.items .single-item:hover .view-demo {
+	display: block;
+}  
+.items .single-item .view-demo {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	display: none;
+}
+.items .single-item .view-demo a {
+	color: #fff;
+	text-transform: uppercase;
+	padding: 8px 20px;
+	margin: 0;
+	display: inline-block;
+	background: #6d49eb;
+}
+.items .single-item img {
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.10);
+	-moz-box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.10);
+	box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.10);
+	width: 100%;
+}
+.items .single-item h3 {
+	font-family: 'Raleway', sans-serif;
+	color: #555;
+	font-weight: 600;
+}
+/*****************************************
+		footer 
+******************************************/
+footer {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	background: #171830;
+	padding: 20px 0;
+}
